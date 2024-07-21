@@ -1,0 +1,171 @@
+body {
+
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+
+      'Helvetica Neue', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+  /* padding-top: 5px; */
+
+  background: rgba(237, 204, 204, 0.26);
+
+}
+
+img {
+
+  height: 80px;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 20px;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+}
+
+.productsWrapper {
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 30px;
+
+}
+
+.btn {
+
+  border: none;
+
+  outline: none;
+
+  background: #764abc;
+
+  padding: 5px 10px;
+
+  color: #fff;
+
+  border-radius: 5px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+
+
+
+.btn:hover {
+
+  background: #513282;
+
+}
+
+
+
+
+.heading {
+
+  padding: 25px 0;
+  padding-left: 25px;
+  padding-top: 80px;
+
+}
+
+div>.cartCount {
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  margin: 40px;
+  font-size: 18px;
+  
+
+}
+
+.heading3 {
+  padding-left: 30px;
+}
+
+.navLink {
+
+  text-decoration: none;
+
+  color: black;
+
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.navLink:hover{
+  text-decoration: none;
+
+  color: rgb(140, 6, 6);
+
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+
+
+
+.cartCard {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  background: #ffffff88;
+
+  margin-bottom: 20px;
+
+  padding: 14px;
+
+  border-radius: 5px;
+
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+
+  cursor: pointer;
+  
+}
+
+.navbar {
+
+  background-color: rgb(157, 124, 51);
+  height: 80px;
+  position:fixed;
+  top: 0px;
+  width: 100vw;
+
+}
+
+.myCart{
+  margin-top: 100px;
+}
+
